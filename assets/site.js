@@ -8,13 +8,13 @@
   /* ===== サイトマップ（ナビゲーション）===== */
   const NAV = [
     ["index.html", "表紙"],
-    ["basics.html", "01 基礎"],
-    ["numbers.html", "02 全体像・地域"],
-    ["domains.html", "03 領域"],
-    ["list.html", "04 全品目"],
-    ["regulation.html", "05 制度"],
-    ["themes.html", "06 横断テーマ"],
-    ["japan-ips.html", "07 日本のiPS"],
+    ["summary.html", "01 全体要約"],
+    ["basics.html", "02 基礎"],
+    ["numbers.html", "03 全体像・国別比較"],
+    ["domains.html", "04 領域"],
+    ["list.html", "05 全品目"],
+    ["regulation.html", "06 制度"],
+    ["themes.html", "07 横断テーマ"],
     ["caution.html", "08 注意点"],
     ["sources.html", "09 出典"]
   ];

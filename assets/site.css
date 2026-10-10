@@ -30,7 +30,7 @@ h1,h2,h3{font-family:var(--serif);line-height:1.35;margin:0}
 section{padding:72px 0 8px}
 .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);font-weight:700;margin:0 0 10px}
 .sec-title{font-size:clamp(26px,4vw,38px);font-weight:800;margin-bottom:10px}
-.sec-lead{color:var(--ink-2);max-width:62ch;margin:0 0 28px}
+.sec-lead{color:var(--ink-2);margin:0 0 28px}
 .note{font-size:13px;color:var(--muted);margin-top:14px}
 
 /* ===== Top nav ===== */
@@ -525,7 +525,7 @@ table.rt td.vm{background:var(--bg)}
 .hline .tl-i b{position:absolute;left:0;top:0;white-space:nowrap}
 .hline .tl-i span{display:block;margin-top:0}
 @media (min-width:800px){.hline{overflow-x:visible}.hline .tl-i{flex:1 1 0;min-width:0}}
-.lc-wrap{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 8px;margin:12px 0}
+.lc-wrap{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 8px;margin:12px 0;max-width:420px}
 .lc-wrap text{font-family:var(--sans)}
 
 .bar6{grid-template-columns:1fr 62px!important;row-gap:4px}
