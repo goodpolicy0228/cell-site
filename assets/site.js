@@ -8,9 +8,9 @@
   /* ===== サイトマップ（ナビゲーション）===== */
   const NAV = [
     ["index.html", "表紙"],
-    ["summary.html", "01 全体要約"],
-    ["basics.html", "02 基礎"],
-    ["numbers.html", "03 全体像・国別比較"],
+    ["basics.html", "01 基礎"],
+    ["overview.html", "02 全体像"],
+    ["numbers.html", "03 国別比較"],
     ["domains.html", "04 領域"],
     ["list.html", "05 全品目"],
     ["regulation.html", "06 制度"],
@@ -32,9 +32,14 @@
 
   const footEl = $("site-footer");
   if (footEl) {
+    const dl = here === "index.html" ? "" : `<div class="foot-dl">
+        <a href="${ROOT}世界の細胞医療レポート.docx" download><span class="fico w">W</span>報告書（Word）をダウンロード ↓</a>
+        <a href="${ROOT}世界の細胞医療_一般向け資料.pptx" download><span class="fico p">P</span>一般向け資料（PowerPoint）をダウンロード ↓</a>
+      </div>`;
     footEl.innerHTML = `<footer><div class="wrap">
       <p class="big">世界の細胞医療</p>
       <p style="margin:8px 0 0">生きた細胞で治す医療の、しくみと現在地。調査基準日 2026年10月2日。</p>
+      ${dl}
       <p style="margin:14px 0 0;color:#9fb3ae">この情報は治療の助言ではありません。治療の判断は、医師と十分に相談してください。</p>
     </div></footer>`;
   }

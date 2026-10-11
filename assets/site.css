@@ -59,6 +59,17 @@ section{padding:72px 0 8px}
 .kpi .l{font-size:13px;color:#bfdcd7;margin-top:8px}
 .kpi.hi{background:linear-gradient(135deg,var(--coral),#f08a4b);border-color:transparent}
 .kpi.hi .l,.kpi.hi .n small{color:#fff}
+.hero .dl{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.hero .dl a{font-size:13px;font-weight:700;color:#eef8f6;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:6px 16px 6px 8px;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.06);transition:background .15s,border-color .15s}
+.hero .dl a:hover,.hero .dl a:focus-visible{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.5)}
+
+.foot-dl{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0 0}
+.foot-dl a{font-size:13px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.foot-dl a:hover{text-decoration:underline}
+
+.fico{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;color:#fff;font-family:var(--sans);font-size:11px;font-weight:800;flex:0 0 auto;line-height:1}
+.fico.w{background:#2b579a}
+.fico.p{background:#d24726}
 
 /* ===== Basics ===== */
 .cards3{display:grid;gap:14px;grid-template-columns:1fr}
